@@ -6315,6 +6315,30 @@
           <ScriptAndHeader>
             <ScriptAndHeader_Header>
               <Script>
+                <FileName>SolveLeaveRL.ash</FileName>
+                <Name />
+                <Description />
+                <Author />
+                <Version />
+                <Key>875405021</Key>
+                <IsHeader>True</IsHeader>
+              </Script>
+            </ScriptAndHeader_Header>
+            <ScriptAndHeader_Script>
+              <Script>
+                <FileName>SolveLeaveRL.asc</FileName>
+                <Name />
+                <Description />
+                <Author />
+                <Version />
+                <Key>875405021</Key>
+                <IsHeader>False</IsHeader>
+              </Script>
+            </ScriptAndHeader_Script>
+          </ScriptAndHeader>
+          <ScriptAndHeader>
+            <ScriptAndHeader_Header>
+              <Script>
                 <FileName>GlobalScript.ash</FileName>
                 <Name />
                 <Description />

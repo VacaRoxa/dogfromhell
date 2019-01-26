@@ -13,7 +13,7 @@
       <RoomTransition>FadeOutAndIn</RoomTransition>
       <MouseWheelEnabled>True</MouseWheelEnabled>
       <UseLowResCoordinatesInScript>False</UseLowResCoordinatesInScript>
-      <TurnBeforeFacing>False</TurnBeforeFacing>
+      <TurnBeforeFacing>True</TurnBeforeFacing>
       <TurnBeforeWalking>True</TurnBeforeWalking>
       <SplitResources>0</SplitResources>
       <LetterboxMode>False</LetterboxMode>
@@ -756,7 +756,7 @@
               <Width>224</Width>
               <Left>0</Left>
               <Top>0</Top>
-              <Clickable>True</Clickable>
+              <Clickable>False</Clickable>
               <Visibility>Normal</Visibility>
               <PopupYPos>0</PopupYPos>
               <ZOrder>0</ZOrder>
@@ -2071,6 +2071,16 @@
                   </Sprite>
                 </Sprites>
               </SpriteFolder>
+              <SpriteFolder Name="Hit">
+                <SubFolders />
+                <Sprites>
+                  <Sprite Slot="108" Width="56" Height="56" ColorDepth="32" Resolution="LowRes" AlphaChannel="True">
+                    <Source>
+                      <FileName>Z:\home\erico\Documents\dogfromhell\img\dog\hit\dog-hit.png</FileName>
+                    </Source>
+                  </Sprite>
+                </Sprites>
+              </SpriteFolder>
             </SubFolders>
             <Sprites />
           </SpriteFolder>
@@ -2099,32 +2109,32 @@
               <SpriteFolder Name="Walk">
                 <SubFolders />
                 <Sprites>
-                  <Sprite Slot="43" Width="70" Height="70" ColorDepth="32" Resolution="LowRes" AlphaChannel="True">
+                  <Sprite Slot="43" Width="37" Height="46" ColorDepth="32" Resolution="LowRes" AlphaChannel="True">
                     <Source>
                       <FileName>img/enemy1/senemy1-walk-000.png</FileName>
                     </Source>
                   </Sprite>
-                  <Sprite Slot="44" Width="70" Height="70" ColorDepth="32" Resolution="LowRes" AlphaChannel="True">
+                  <Sprite Slot="44" Width="37" Height="46" ColorDepth="32" Resolution="LowRes" AlphaChannel="True">
                     <Source>
                       <FileName>img/enemy1/senemy1-walk-001.png</FileName>
                     </Source>
                   </Sprite>
-                  <Sprite Slot="45" Width="70" Height="70" ColorDepth="32" Resolution="LowRes" AlphaChannel="True">
+                  <Sprite Slot="45" Width="37" Height="46" ColorDepth="32" Resolution="LowRes" AlphaChannel="True">
                     <Source>
                       <FileName>img/enemy1/senemy1-walk-002.png</FileName>
                     </Source>
                   </Sprite>
-                  <Sprite Slot="46" Width="70" Height="70" ColorDepth="32" Resolution="LowRes" AlphaChannel="True">
+                  <Sprite Slot="46" Width="37" Height="46" ColorDepth="32" Resolution="LowRes" AlphaChannel="True">
                     <Source>
                       <FileName>img/enemy1/senemy1-walk-003.png</FileName>
                     </Source>
                   </Sprite>
-                  <Sprite Slot="47" Width="70" Height="70" ColorDepth="32" Resolution="LowRes" AlphaChannel="True">
+                  <Sprite Slot="47" Width="37" Height="46" ColorDepth="32" Resolution="LowRes" AlphaChannel="True">
                     <Source>
                       <FileName>img/enemy1/senemy1-walk-004.png</FileName>
                     </Source>
                   </Sprite>
-                  <Sprite Slot="48" Width="70" Height="70" ColorDepth="32" Resolution="LowRes" AlphaChannel="True">
+                  <Sprite Slot="48" Width="37" Height="46" ColorDepth="32" Resolution="LowRes" AlphaChannel="True">
                     <Source>
                       <FileName>img/enemy1/senemy1-walk-005.png</FileName>
                     </Source>
@@ -2462,6 +2472,31 @@
                   <Sprite Slot="103" Width="70" Height="70" ColorDepth="32" Resolution="LowRes" AlphaChannel="True">
                     <Source>
                       <FileName>img/enemy2/enemy2-hit-00.png</FileName>
+                    </Source>
+                  </Sprite>
+                </Sprites>
+              </SpriteFolder>
+              <SpriteFolder Name="Throw">
+                <SubFolders />
+                <Sprites>
+                  <Sprite Slot="104" Width="70" Height="70" ColorDepth="32" Resolution="LowRes" AlphaChannel="True">
+                    <Source>
+                      <FileName>Z:\home\erico\Documents\dogfromhell\img\enemy2\enemy2-throw-00.png</FileName>
+                    </Source>
+                  </Sprite>
+                  <Sprite Slot="105" Width="70" Height="70" ColorDepth="32" Resolution="LowRes" AlphaChannel="True">
+                    <Source>
+                      <FileName>Z:\home\erico\Documents\dogfromhell\img\enemy2\enemy2-throw-01.png</FileName>
+                    </Source>
+                  </Sprite>
+                  <Sprite Slot="106" Width="70" Height="70" ColorDepth="32" Resolution="LowRes" AlphaChannel="True">
+                    <Source>
+                      <FileName>Z:\home\erico\Documents\dogfromhell\img\enemy2\enemy2-throw-02.png</FileName>
+                    </Source>
+                  </Sprite>
+                  <Sprite Slot="107" Width="70" Height="70" ColorDepth="32" Resolution="LowRes" AlphaChannel="True">
+                    <Source>
+                      <FileName>Z:\home\erico\Documents\dogfromhell\img\enemy2\enemy2-throw-03.png</FileName>
                     </Source>
                   </Sprite>
                 </Sprites>
@@ -3799,6 +3834,64 @@
                       <ViewFrame>
                         <ID>3</ID>
                         <Image>4</Image>
+                        <Flipped>False</Flipped>
+                        <Delay>0</Delay>
+                        <Sound>0</Sound>
+                      </ViewFrame>
+                    </Frames>
+                  </Loop>
+                </Loops>
+              </View>
+              <View>
+                <ID>20</ID>
+                <Name>DogTookHit</Name>
+                <Loops>
+                  <Loop>
+                    <ID>0</ID>
+                    <RunNextLoop>False</RunNextLoop>
+                    <Frames>
+                      <ViewFrame>
+                        <ID>0</ID>
+                        <Image>108</Image>
+                        <Flipped>False</Flipped>
+                        <Delay>0</Delay>
+                        <Sound>0</Sound>
+                      </ViewFrame>
+                    </Frames>
+                  </Loop>
+                  <Loop>
+                    <ID>1</ID>
+                    <RunNextLoop>False</RunNextLoop>
+                    <Frames>
+                      <ViewFrame>
+                        <ID>0</ID>
+                        <Image>108</Image>
+                        <Flipped>True</Flipped>
+                        <Delay>0</Delay>
+                        <Sound>0</Sound>
+                      </ViewFrame>
+                    </Frames>
+                  </Loop>
+                  <Loop>
+                    <ID>2</ID>
+                    <RunNextLoop>False</RunNextLoop>
+                    <Frames>
+                      <ViewFrame>
+                        <ID>0</ID>
+                        <Image>108</Image>
+                        <Flipped>False</Flipped>
+                        <Delay>0</Delay>
+                        <Sound>0</Sound>
+                      </ViewFrame>
+                    </Frames>
+                  </Loop>
+                  <Loop>
+                    <ID>3</ID>
+                    <RunNextLoop>False</RunNextLoop>
+                    <Frames>
+                      <ViewFrame>
+                        <ID>0</ID>
+                        <Image>108</Image>
                         <Flipped>False</Flipped>
                         <Delay>0</Delay>
                         <Sound>0</Sound>

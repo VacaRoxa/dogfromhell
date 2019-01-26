@@ -15,5 +15,5 @@ struct __FakeScreen
 import __FakeScreen FakeScreen;
 import DynamicSprite * FakeSprite;
 
-#define GWIDTH 320
-#define GHEIGHT 180
+#define GWIDTH 224
+#define GHEIGHT 320

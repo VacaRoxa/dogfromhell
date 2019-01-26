@@ -124,7 +124,19 @@
         <CharsForFrame />
       </Frames>
     </LipSync>
-    <PropertyDefinitions />
+    <PropertyDefinitions>
+      <CustomPropertySchemaItem>
+        <Name>overlay</Name>
+        <Description />
+        <DefaultValue>0</DefaultValue>
+        <AppliesToCharacters>True</AppliesToCharacters>
+        <AppliesToHotspots>False</AppliesToHotspots>
+        <AppliesToInvItems>False</AppliesToInvItems>
+        <AppliesToObjects>True</AppliesToObjects>
+        <AppliesToRooms>False</AppliesToRooms>
+        <Type>Boolean</Type>
+      </CustomPropertySchemaItem>
+    </PropertyDefinitions>
     <GlobalMessages>
       <Message ID="500" />
       <Message ID="501" />
@@ -628,7 +640,12 @@
       <Message ID="999" />
     </GlobalMessages>
     <OldInteractionVariables />
-    <Plugins />
+    <Plugins>
+      <Plugin>
+        <FileName>agsblend.dll</FileName>
+        <Data></Data>
+      </Plugin>
+    </Plugins>
     <Rooms>
       <UnloadedRoomFolder Name="Main">
         <SubFolders />
@@ -749,6 +766,26 @@
               <BackgroundImage>0</BackgroundImage>
               <ID>4</ID>
               <Name>gGameScr</Name>
+            </NormalGUI>
+            <Controls />
+          </GUIMain>
+          <GUIMain>
+            <NormalGUI>
+              <OnClick />
+              <Height>56</Height>
+              <Width>56</Width>
+              <Left>0</Left>
+              <Top>0</Top>
+              <Clickable>True</Clickable>
+              <Visibility>NormalButInitiallyOff</Visibility>
+              <PopupYPos>0</PopupYPos>
+              <ZOrder>4</ZOrder>
+              <BorderColor>0</BorderColor>
+              <Transparency>0</Transparency>
+              <BackgroundColor>0</BackgroundColor>
+              <BackgroundImage>1</BackgroundImage>
+              <ID>5</ID>
+              <Name>gFakeOverlay</Name>
             </NormalGUI>
             <Controls />
           </GUIMain>
@@ -1909,6 +1946,21 @@
                   <Sprite Slot="64" Width="70" Height="70" ColorDepth="32" Resolution="LowRes" AlphaChannel="True">
                     <Source>
                       <FileName>img/enemy1/members/enemy1-arms_07.png</FileName>
+                    </Source>
+                  </Sprite>
+                </Sprites>
+              </SpriteFolder>
+            </SubFolders>
+            <Sprites />
+          </SpriteFolder>
+          <SpriteFolder Name="Levels">
+            <SubFolders>
+              <SpriteFolder Name="Level1">
+                <SubFolders />
+                <Sprites>
+                  <Sprite Slot="65" Width="224" Height="320" ColorDepth="32" Resolution="LowRes" AlphaChannel="True">
+                    <Source>
+                      <FileName>Z:\home\erico\Documents\dogfromhell\img\level1\lights.png</FileName>
                     </Source>
                   </Sprite>
                 </Sprites>

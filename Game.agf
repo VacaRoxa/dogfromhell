@@ -628,12 +628,7 @@
       <Message ID="999" />
     </GlobalMessages>
     <OldInteractionVariables />
-    <Plugins>
-      <Plugin>
-        <FileName>agsblend.dll</FileName>
-        <Data></Data>
-      </Plugin>
-    </Plugins>
+    <Plugins />
     <Rooms>
       <UnloadedRoomFolder Name="Main">
         <SubFolders />

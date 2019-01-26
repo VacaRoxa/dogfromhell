@@ -1114,14 +1114,14 @@
             <IdleView>0</IdleView>
             <ThinkingView>0</ThinkingView>
             <BlinkingView>0</BlinkingView>
-            <StartingRoom>-1</StartingRoom>
-            <StartX>160</StartX>
-            <StartY>120</StartY>
+            <StartingRoom>1</StartingRoom>
+            <StartX>151</StartX>
+            <StartY>93</StartY>
             <UniformMovementSpeed>True</UniformMovementSpeed>
             <MovementSpeed>3</MovementSpeed>
             <MovementSpeedX>0</MovementSpeedX>
             <MovementSpeedY>0</MovementSpeedY>
-            <AnimationDelay>4</AnimationDelay>
+            <AnimationDelay>2</AnimationDelay>
             <SpeechAnimationDelay>5</SpeechAnimationDelay>
             <SpeechColor>12</SpeechColor>
             <Solid>True</Solid>

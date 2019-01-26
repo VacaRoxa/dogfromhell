@@ -1181,9 +1181,9 @@
                 <IdleView>0</IdleView>
                 <ThinkingView>0</ThinkingView>
                 <BlinkingView>0</BlinkingView>
-                <StartingRoom>-1</StartingRoom>
-                <StartX>160</StartX>
-                <StartY>120</StartY>
+                <StartingRoom>2</StartingRoom>
+                <StartX>117</StartX>
+                <StartY>222</StartY>
                 <UniformMovementSpeed>True</UniformMovementSpeed>
                 <MovementSpeed>3</MovementSpeed>
                 <MovementSpeedX>0</MovementSpeedX>
@@ -2344,32 +2344,32 @@
               <SpriteFolder Name="Walk">
                 <SubFolders />
                 <Sprites>
-                  <Sprite Slot="81" Width="70" Height="70" ColorDepth="32" Resolution="LowRes" AlphaChannel="True">
+                  <Sprite Slot="81" Width="50" Height="52" ColorDepth="32" Resolution="LowRes" AlphaChannel="True">
                     <Source>
                       <FileName>img/enemy2/enemy2-run-00.png</FileName>
                     </Source>
                   </Sprite>
-                  <Sprite Slot="82" Width="70" Height="70" ColorDepth="32" Resolution="LowRes" AlphaChannel="True">
+                  <Sprite Slot="82" Width="50" Height="52" ColorDepth="32" Resolution="LowRes" AlphaChannel="True">
                     <Source>
                       <FileName>img/enemy2/enemy2-run-01.png</FileName>
                     </Source>
                   </Sprite>
-                  <Sprite Slot="83" Width="70" Height="70" ColorDepth="32" Resolution="LowRes" AlphaChannel="True">
+                  <Sprite Slot="83" Width="50" Height="52" ColorDepth="32" Resolution="LowRes" AlphaChannel="True">
                     <Source>
                       <FileName>img/enemy2/enemy2-run-02.png</FileName>
                     </Source>
                   </Sprite>
-                  <Sprite Slot="84" Width="70" Height="70" ColorDepth="32" Resolution="LowRes" AlphaChannel="True">
+                  <Sprite Slot="84" Width="50" Height="52" ColorDepth="32" Resolution="LowRes" AlphaChannel="True">
                     <Source>
                       <FileName>img/enemy2/enemy2-run-03.png</FileName>
                     </Source>
                   </Sprite>
-                  <Sprite Slot="85" Width="70" Height="70" ColorDepth="32" Resolution="LowRes" AlphaChannel="True">
+                  <Sprite Slot="85" Width="50" Height="52" ColorDepth="32" Resolution="LowRes" AlphaChannel="True">
                     <Source>
                       <FileName>img/enemy2/enemy2-run-04.png</FileName>
                     </Source>
                   </Sprite>
-                  <Sprite Slot="86" Width="70" Height="70" ColorDepth="32" Resolution="LowRes" AlphaChannel="True">
+                  <Sprite Slot="86" Width="50" Height="52" ColorDepth="32" Resolution="LowRes" AlphaChannel="True">
                     <Source>
                       <FileName>img/enemy2/enemy2-run-05.png</FileName>
                     </Source>
@@ -2469,7 +2469,7 @@
               <SpriteFolder Name="Hit">
                 <SubFolders />
                 <Sprites>
-                  <Sprite Slot="103" Width="70" Height="70" ColorDepth="32" Resolution="LowRes" AlphaChannel="True">
+                  <Sprite Slot="103" Width="50" Height="52" ColorDepth="32" Resolution="LowRes" AlphaChannel="True">
                     <Source>
                       <FileName>img/enemy2/enemy2-hit-00.png</FileName>
                     </Source>
@@ -2479,22 +2479,22 @@
               <SpriteFolder Name="Throw">
                 <SubFolders />
                 <Sprites>
-                  <Sprite Slot="104" Width="70" Height="70" ColorDepth="32" Resolution="LowRes" AlphaChannel="True">
+                  <Sprite Slot="104" Width="50" Height="52" ColorDepth="32" Resolution="LowRes" AlphaChannel="True">
                     <Source>
                       <FileName>Z:\home\erico\Documents\dogfromhell\img\enemy2\enemy2-throw-00.png</FileName>
                     </Source>
                   </Sprite>
-                  <Sprite Slot="105" Width="70" Height="70" ColorDepth="32" Resolution="LowRes" AlphaChannel="True">
+                  <Sprite Slot="105" Width="50" Height="52" ColorDepth="32" Resolution="LowRes" AlphaChannel="True">
                     <Source>
                       <FileName>Z:\home\erico\Documents\dogfromhell\img\enemy2\enemy2-throw-01.png</FileName>
                     </Source>
                   </Sprite>
-                  <Sprite Slot="106" Width="70" Height="70" ColorDepth="32" Resolution="LowRes" AlphaChannel="True">
+                  <Sprite Slot="106" Width="50" Height="52" ColorDepth="32" Resolution="LowRes" AlphaChannel="True">
                     <Source>
                       <FileName>Z:\home\erico\Documents\dogfromhell\img\enemy2\enemy2-throw-02.png</FileName>
                     </Source>
                   </Sprite>
-                  <Sprite Slot="107" Width="70" Height="70" ColorDepth="32" Resolution="LowRes" AlphaChannel="True">
+                  <Sprite Slot="107" Width="50" Height="52" ColorDepth="32" Resolution="LowRes" AlphaChannel="True">
                     <Source>
                       <FileName>Z:\home\erico\Documents\dogfromhell\img\enemy2\enemy2-throw-03.png</FileName>
                     </Source>
@@ -5870,6 +5870,148 @@
                       <ViewFrame>
                         <ID>7</ID>
                         <Image>102</Image>
+                        <Flipped>False</Flipped>
+                        <Delay>0</Delay>
+                        <Sound>0</Sound>
+                      </ViewFrame>
+                    </Frames>
+                  </Loop>
+                </Loops>
+              </View>
+              <View>
+                <ID>21</ID>
+                <Name>Enemy2Throw</Name>
+                <Loops>
+                  <Loop>
+                    <ID>0</ID>
+                    <RunNextLoop>False</RunNextLoop>
+                    <Frames>
+                      <ViewFrame>
+                        <ID>0</ID>
+                        <Image>104</Image>
+                        <Flipped>False</Flipped>
+                        <Delay>0</Delay>
+                        <Sound>0</Sound>
+                      </ViewFrame>
+                      <ViewFrame>
+                        <ID>1</ID>
+                        <Image>105</Image>
+                        <Flipped>False</Flipped>
+                        <Delay>0</Delay>
+                        <Sound>0</Sound>
+                      </ViewFrame>
+                      <ViewFrame>
+                        <ID>2</ID>
+                        <Image>106</Image>
+                        <Flipped>False</Flipped>
+                        <Delay>0</Delay>
+                        <Sound>0</Sound>
+                      </ViewFrame>
+                      <ViewFrame>
+                        <ID>3</ID>
+                        <Image>107</Image>
+                        <Flipped>False</Flipped>
+                        <Delay>0</Delay>
+                        <Sound>0</Sound>
+                      </ViewFrame>
+                    </Frames>
+                  </Loop>
+                  <Loop>
+                    <ID>1</ID>
+                    <RunNextLoop>False</RunNextLoop>
+                    <Frames>
+                      <ViewFrame>
+                        <ID>0</ID>
+                        <Image>104</Image>
+                        <Flipped>False</Flipped>
+                        <Delay>0</Delay>
+                        <Sound>0</Sound>
+                      </ViewFrame>
+                      <ViewFrame>
+                        <ID>1</ID>
+                        <Image>105</Image>
+                        <Flipped>False</Flipped>
+                        <Delay>0</Delay>
+                        <Sound>0</Sound>
+                      </ViewFrame>
+                      <ViewFrame>
+                        <ID>2</ID>
+                        <Image>106</Image>
+                        <Flipped>False</Flipped>
+                        <Delay>0</Delay>
+                        <Sound>0</Sound>
+                      </ViewFrame>
+                      <ViewFrame>
+                        <ID>3</ID>
+                        <Image>107</Image>
+                        <Flipped>False</Flipped>
+                        <Delay>0</Delay>
+                        <Sound>0</Sound>
+                      </ViewFrame>
+                    </Frames>
+                  </Loop>
+                  <Loop>
+                    <ID>2</ID>
+                    <RunNextLoop>False</RunNextLoop>
+                    <Frames>
+                      <ViewFrame>
+                        <ID>0</ID>
+                        <Image>104</Image>
+                        <Flipped>True</Flipped>
+                        <Delay>0</Delay>
+                        <Sound>0</Sound>
+                      </ViewFrame>
+                      <ViewFrame>
+                        <ID>1</ID>
+                        <Image>105</Image>
+                        <Flipped>True</Flipped>
+                        <Delay>0</Delay>
+                        <Sound>0</Sound>
+                      </ViewFrame>
+                      <ViewFrame>
+                        <ID>2</ID>
+                        <Image>106</Image>
+                        <Flipped>True</Flipped>
+                        <Delay>0</Delay>
+                        <Sound>0</Sound>
+                      </ViewFrame>
+                      <ViewFrame>
+                        <ID>3</ID>
+                        <Image>107</Image>
+                        <Flipped>True</Flipped>
+                        <Delay>0</Delay>
+                        <Sound>0</Sound>
+                      </ViewFrame>
+                    </Frames>
+                  </Loop>
+                  <Loop>
+                    <ID>3</ID>
+                    <RunNextLoop>False</RunNextLoop>
+                    <Frames>
+                      <ViewFrame>
+                        <ID>0</ID>
+                        <Image>104</Image>
+                        <Flipped>False</Flipped>
+                        <Delay>0</Delay>
+                        <Sound>0</Sound>
+                      </ViewFrame>
+                      <ViewFrame>
+                        <ID>1</ID>
+                        <Image>105</Image>
+                        <Flipped>False</Flipped>
+                        <Delay>0</Delay>
+                        <Sound>0</Sound>
+                      </ViewFrame>
+                      <ViewFrame>
+                        <ID>2</ID>
+                        <Image>106</Image>
+                        <Flipped>False</Flipped>
+                        <Delay>0</Delay>
+                        <Sound>0</Sound>
+                      </ViewFrame>
+                      <ViewFrame>
+                        <ID>3</ID>
+                        <Image>107</Image>
                         <Flipped>False</Flipped>
                         <Delay>0</Delay>
                         <Sound>0</Sound>

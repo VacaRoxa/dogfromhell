@@ -10,6 +10,7 @@ struct __FakeScreen
 {
   import function Enable();
   import function Disable();
+  import bool isEnabled();
 };
 
 import __FakeScreen FakeScreen;

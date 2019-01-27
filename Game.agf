@@ -73,7 +73,7 @@
       <SaveGameFileExtension />
       <SaveGameFolderName>DogFromHell</SaveGameFolderName>
       <BinaryFilesInSourceControl>False</BinaryFilesInSourceControl>
-      <AudioIndexer>2</AudioIndexer>
+      <AudioIndexer>10</AudioIndexer>
       <BuildTargets>Windows</BuildTargets>
       <RenderAtScreenResolution>UserDefined</RenderAtScreenResolution>
     </Settings>
@@ -9197,7 +9197,19 @@
                 <DefaultVolume>-1</DefaultVolume>
                 <DefaultPriority>Inherit</DefaultPriority>
                 <DefaultRepeat>Inherit</DefaultRepeat>
-                <FileLastModifiedDate>2019-01-27 15:49:27Z</FileLastModifiedDate>
+                <FileLastModifiedDate>2019-01-27 16:15:39Z</FileLastModifiedDate>
+              </AudioClip>
+              <AudioClip>
+                <ScriptName>aDog_from_hell_3</ScriptName>
+                <SourceFileName xml:space="preserve">C:\Users\bakud\Dropbox\JAMs &amp; Cowork\GGJ2019\03 export\audio\musicas\dog_from_hell_3.mp3</SourceFileName>
+                <Index>3</Index>
+                <Type>2</Type>
+                <BundlingType>InGameEXE</BundlingType>
+                <FileType>MP3</FileType>
+                <DefaultVolume>-1</DefaultVolume>
+                <DefaultPriority>Inherit</DefaultPriority>
+                <DefaultRepeat>Inherit</DefaultRepeat>
+                <FileLastModifiedDate>2019-01-27 17:23:08Z</FileLastModifiedDate>
               </AudioClip>
             </AudioClips>
             <AudioClipFolder>
@@ -9210,7 +9222,92 @@
           </AudioClipFolder>
           <AudioClipFolder Name="Sounds">
             <SubFolders />
-            <AudioClips />
+            <AudioClips>
+              <AudioClip>
+                <ScriptName>aDog_from_hell_dog_bite</ScriptName>
+                <SourceFileName xml:space="preserve">C:\Users\bakud\Dropbox\JAMs &amp; Cowork\GGJ2019\03 export\audio\sfx\dog_from_hell_dog_bite.mp3</SourceFileName>
+                <Index>4</Index>
+                <Type>3</Type>
+                <BundlingType>InGameEXE</BundlingType>
+                <FileType>MP3</FileType>
+                <DefaultVolume>-1</DefaultVolume>
+                <DefaultPriority>Inherit</DefaultPriority>
+                <DefaultRepeat>Inherit</DefaultRepeat>
+                <FileLastModifiedDate>2019-01-27 17:15:08Z</FileLastModifiedDate>
+              </AudioClip>
+              <AudioClip>
+                <ScriptName>aDog_from_hell_dog_drop_bone</ScriptName>
+                <SourceFileName xml:space="preserve">C:\Users\bakud\Dropbox\JAMs &amp; Cowork\GGJ2019\03 export\audio\sfx\dog_from_hell_dog_drop_bone.mp3</SourceFileName>
+                <Index>5</Index>
+                <Type>3</Type>
+                <BundlingType>InGameEXE</BundlingType>
+                <FileType>MP3</FileType>
+                <DefaultVolume>-1</DefaultVolume>
+                <DefaultPriority>Inherit</DefaultPriority>
+                <DefaultRepeat>Inherit</DefaultRepeat>
+                <FileLastModifiedDate>2019-01-27 17:20:53Z</FileLastModifiedDate>
+              </AudioClip>
+              <AudioClip>
+                <ScriptName>aDog_from_hell_dog_hurt</ScriptName>
+                <SourceFileName xml:space="preserve">C:\Users\bakud\Dropbox\JAMs &amp; Cowork\GGJ2019\03 export\audio\sfx\dog_from_hell_dog_hurt.mp3</SourceFileName>
+                <Index>6</Index>
+                <Type>3</Type>
+                <BundlingType>InGameEXE</BundlingType>
+                <FileType>MP3</FileType>
+                <DefaultVolume>-1</DefaultVolume>
+                <DefaultPriority>Inherit</DefaultPriority>
+                <DefaultRepeat>Inherit</DefaultRepeat>
+                <FileLastModifiedDate>2019-01-27 17:20:40Z</FileLastModifiedDate>
+              </AudioClip>
+              <AudioClip>
+                <ScriptName>aDog_from_hell_dog_pick_bone</ScriptName>
+                <SourceFileName xml:space="preserve">C:\Users\bakud\Dropbox\JAMs &amp; Cowork\GGJ2019\03 export\audio\sfx\dog_from_hell_dog_pick_bone.mp3</SourceFileName>
+                <Index>7</Index>
+                <Type>3</Type>
+                <BundlingType>InGameEXE</BundlingType>
+                <FileType>MP3</FileType>
+                <DefaultVolume>-1</DefaultVolume>
+                <DefaultPriority>Inherit</DefaultPriority>
+                <DefaultRepeat>Inherit</DefaultRepeat>
+                <FileLastModifiedDate>2019-01-27 17:21:01Z</FileLastModifiedDate>
+              </AudioClip>
+              <AudioClip>
+                <ScriptName>aDog_from_hell_throw_mail</ScriptName>
+                <SourceFileName xml:space="preserve">C:\Users\bakud\Dropbox\JAMs &amp; Cowork\GGJ2019\03 export\audio\sfx\dog_from_hell_throw_mail.mp3</SourceFileName>
+                <Index>8</Index>
+                <Type>3</Type>
+                <BundlingType>InGameEXE</BundlingType>
+                <FileType>MP3</FileType>
+                <DefaultVolume>-1</DefaultVolume>
+                <DefaultPriority>Inherit</DefaultPriority>
+                <DefaultRepeat>Inherit</DefaultRepeat>
+                <FileLastModifiedDate>2019-01-27 17:20:48Z</FileLastModifiedDate>
+              </AudioClip>
+              <AudioClip>
+                <ScriptName>aDog_from_hell_vaca_moo</ScriptName>
+                <SourceFileName xml:space="preserve">C:\Users\bakud\Dropbox\JAMs &amp; Cowork\GGJ2019\03 export\audio\sfx\dog_from_hell_vaca_moo.mp3</SourceFileName>
+                <Index>9</Index>
+                <Type>3</Type>
+                <BundlingType>InGameEXE</BundlingType>
+                <FileType>MP3</FileType>
+                <DefaultVolume>-1</DefaultVolume>
+                <DefaultPriority>Inherit</DefaultPriority>
+                <DefaultRepeat>Inherit</DefaultRepeat>
+                <FileLastModifiedDate>2019-01-27 17:16:05Z</FileLastModifiedDate>
+              </AudioClip>
+              <AudioClip>
+                <ScriptName>aSplash</ScriptName>
+                <SourceFileName xml:space="preserve">C:\Users\bakud\Dropbox\JAMs &amp; Cowork\GGJ2019\03 export\audio\sfx\splash.ogg</SourceFileName>
+                <Index>10</Index>
+                <Type>3</Type>
+                <BundlingType>InGameEXE</BundlingType>
+                <FileType>OGG</FileType>
+                <DefaultVolume>-1</DefaultVolume>
+                <DefaultPriority>Inherit</DefaultPriority>
+                <DefaultRepeat>Inherit</DefaultRepeat>
+                <FileLastModifiedDate>2018-10-18 15:40:46Z</FileLastModifiedDate>
+              </AudioClip>
+            </AudioClips>
             <AudioClipFolder>
               <DefaultVolume>100</DefaultVolume>
               <DefaultPriority>Inherit</DefaultPriority>
@@ -9277,34 +9374,6 @@
   <Component Name="AudioNew" />
   <Component Name="GlobalVariables" />
   <Component Name="Scripts" />
-  <Component Name="SpeechCenter">
-    <SpeechCenter Version="2.1.0.0">
-      <Document Version="2.0.0.0">
-        <Settings>
-          <CustomFunctions />
-          <VoiceActorScripts NewParagraph="PER_FUNCTION">
-            <Format>
-              <Styles>
-                <CSSStyle CSSName="body" FontFamily="Cambria" Color="" FontStyle="inherit" FontWeight="inherit" />
-                <CSSStyle CSSName=".currentCharacter" FontFamily="" Color="" FontStyle="inherit" FontWeight="inherit" />
-                <CSSStyle CSSName=".otherCharacter" FontFamily="" Color="LightGray" FontStyle="inherit" FontWeight="inherit" />
-                <CSSStyle CSSName=".lineNumber" FontFamily="" Color="Firebrick" FontStyle="inherit" FontWeight="inherit" />
-                <CSSStyle CSSName=".duplicate" FontFamily="" Color="Thistle" FontStyle="inherit" FontWeight="inherit" />
-                <CSSStyle CSSName=".speechCorrect" FontFamily="" Color="MediumBlue" FontStyle="inherit" FontWeight="inherit" />
-                <CSSStyle CSSName=".speechIncorrect" FontFamily="" Color="Red" FontStyle="inherit" FontWeight="inherit" />
-                <CSSStyle CSSName=".filtered" FontFamily="" Color="LightSlateGray" FontStyle="italic" FontWeight="inherit" />
-              </Styles>
-            </Format>
-          </VoiceActorScripts>
-          <Translations EnableEditing="false" />
-          <Edit ShowWarning="true" ExitEditModeAfterSave="true" RefreshProjectAfterSave="Any" />
-          <DialogParsing ShowAllOoptionText="false" />
-        </Settings>
-        <SpeechLines />
-        <Translations />
-      </Document>
-    </SpeechCenter>
-  </Component>
   <Component Name="Plugins" />
   <Component Name="Rooms" />
   <Component Name="Translations" />

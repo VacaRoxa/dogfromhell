@@ -1,4 +1,4 @@
 // new module header
-#define TRASH 3
+#define TRASH 6
 #define GAMEW 224
 #define GAMEH 320

@@ -1673,7 +1673,7 @@
                 <ID>17</ID>
                 <ScriptName>cLetter7</ScriptName>
                 <RealName>Letter7</RealName>
-                <NormalView>1</NormalView>
+                <NormalView>10</NormalView>
                 <SpeechView>0</SpeechView>
                 <IdleView>0</IdleView>
                 <ThinkingView>0</ThinkingView>

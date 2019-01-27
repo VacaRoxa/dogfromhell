@@ -873,6 +873,48 @@
             </NormalGUI>
             <Controls />
           </GUIMain>
+          <GUIMain>
+            <NormalGUI>
+              <OnClick />
+              <Height>32</Height>
+              <Width>224</Width>
+              <Left>0</Left>
+              <Top>0</Top>
+              <Clickable>True</Clickable>
+              <Visibility>NormalButInitiallyOff</Visibility>
+              <PopupYPos>0</PopupYPos>
+              <ZOrder>0</ZOrder>
+              <BorderColor>0</BorderColor>
+              <Transparency>0</Transparency>
+              <BackgroundColor>0</BackgroundColor>
+              <BackgroundImage>0</BackgroundImage>
+              <ID>9</ID>
+              <Name>gTopGui</Name>
+            </NormalGUI>
+            <Controls>
+              <GUIButton>
+                <OnClick>ResetRoomButton_OnClick</OnClick>
+                <ClickAction>RunScript</ClickAction>
+                <NewModeNumber>0</NewModeNumber>
+                <ClipImage>False</ClipImage>
+                <TextAlignment>TopMiddle</TextAlignment>
+                <TextColor>0</TextColor>
+                <Font>0</Font>
+                <PushedImage>0</PushedImage>
+                <MouseoverImage>0</MouseoverImage>
+                <Image>153</Image>
+                <Text xml:space="preserve">New Button</Text>
+                <Height>22</Height>
+                <Locked>False</Locked>
+                <Width>20</Width>
+                <Left>8</Left>
+                <Top>5</Top>
+                <ZOrder>0</ZOrder>
+                <ID>0</ID>
+                <Name>ResetRoomButton</Name>
+              </GUIButton>
+            </Controls>
+          </GUIMain>
         </GUIs>
       </GUIFolder>
     </GUIs>
@@ -3725,6 +3767,16 @@
               <Sprite Slot="150" Width="96" Height="48" ColorDepth="32" Resolution="LowRes" AlphaChannel="False" />
               <Sprite Slot="151" Width="96" Height="48" ColorDepth="32" Resolution="LowRes" AlphaChannel="False" />
               <Sprite Slot="152" Width="96" Height="48" ColorDepth="32" Resolution="LowRes" AlphaChannel="False" />
+            </Sprites>
+          </SpriteFolder>
+          <SpriteFolder Name="Gui">
+            <SubFolders />
+            <Sprites>
+              <Sprite Slot="153" Width="20" Height="22" ColorDepth="32" Resolution="LowRes" AlphaChannel="True">
+                <Source>
+                  <FileName>img/gui/reset_room.png</FileName>
+                </Source>
+              </Sprite>
             </Sprites>
           </SpriteFolder>
         </SubFolders>

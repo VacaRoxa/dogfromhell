@@ -2015,7 +2015,7 @@
             <StartX>38</StartX>
             <StartY>286</StartY>
             <UniformMovementSpeed>True</UniformMovementSpeed>
-            <MovementSpeed>4</MovementSpeed>
+            <MovementSpeed>5</MovementSpeed>
             <MovementSpeedX>3</MovementSpeedX>
             <MovementSpeedY>0</MovementSpeedY>
             <AnimationDelay>1</AnimationDelay>

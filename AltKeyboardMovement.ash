@@ -66,6 +66,9 @@ struct KeyboardMovement {
   import static void Disable();
   import static bool IsEnabled();
   import static void StopMoving();
+  
+  //fake keys
+  import static void FakeKeyPres(eKeyCode k);
 };
 
 

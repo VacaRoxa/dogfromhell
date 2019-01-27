@@ -915,6 +915,69 @@
               </GUIButton>
             </Controls>
           </GUIMain>
+          <GUIMain>
+            <NormalGUI>
+              <OnClick />
+              <Height>40</Height>
+              <Width>224</Width>
+              <Left>0</Left>
+              <Top>280</Top>
+              <Clickable>True</Clickable>
+              <Visibility>NormalButInitiallyOff</Visibility>
+              <PopupYPos>0</PopupYPos>
+              <ZOrder>0</ZOrder>
+              <BorderColor>0</BorderColor>
+              <Transparency>0</Transparency>
+              <BackgroundColor>0</BackgroundColor>
+              <BackgroundImage>0</BackgroundImage>
+              <ID>10</ID>
+              <Name>gBottomGui</Name>
+            </NormalGUI>
+            <Controls>
+              <GUIButton>
+                <OnClick>button_left_OnClick</OnClick>
+                <ClickAction>RunScript</ClickAction>
+                <NewModeNumber>0</NewModeNumber>
+                <ClipImage>False</ClipImage>
+                <TextAlignment>TopMiddle</TextAlignment>
+                <TextColor>0</TextColor>
+                <Font>0</Font>
+                <PushedImage>0</PushedImage>
+                <MouseoverImage>0</MouseoverImage>
+                <Image>154</Image>
+                <Text />
+                <Height>40</Height>
+                <Locked>False</Locked>
+                <Width>80</Width>
+                <Left>16</Left>
+                <Top>0</Top>
+                <ZOrder>0</ZOrder>
+                <ID>0</ID>
+                <Name>button_left</Name>
+              </GUIButton>
+              <GUIButton>
+                <OnClick>button_right_OnClick</OnClick>
+                <ClickAction>RunScript</ClickAction>
+                <NewModeNumber>0</NewModeNumber>
+                <ClipImage>False</ClipImage>
+                <TextAlignment>TopMiddle</TextAlignment>
+                <TextColor>0</TextColor>
+                <Font>0</Font>
+                <PushedImage>0</PushedImage>
+                <MouseoverImage>0</MouseoverImage>
+                <Image>155</Image>
+                <Text />
+                <Height>40</Height>
+                <Locked>False</Locked>
+                <Width>80</Width>
+                <Left>128</Left>
+                <Top>0</Top>
+                <ZOrder>1</ZOrder>
+                <ID>1</ID>
+                <Name>button_right</Name>
+              </GUIButton>
+            </Controls>
+          </GUIMain>
         </GUIs>
       </GUIFolder>
     </GUIs>
@@ -3775,6 +3838,26 @@
               <Sprite Slot="153" Width="20" Height="22" ColorDepth="32" Resolution="LowRes" AlphaChannel="True">
                 <Source>
                   <FileName>img/gui/reset_room.png</FileName>
+                </Source>
+              </Sprite>
+              <Sprite Slot="154" Width="80" Height="40" ColorDepth="32" Resolution="LowRes" AlphaChannel="True">
+                <Source>
+                  <FileName>img/gui/left_button.png</FileName>
+                </Source>
+              </Sprite>
+              <Sprite Slot="155" Width="80" Height="40" ColorDepth="32" Resolution="LowRes" AlphaChannel="True">
+                <Source>
+                  <FileName>img/gui/right_button.png</FileName>
+                </Source>
+              </Sprite>
+              <Sprite Slot="156" Width="80" Height="40" ColorDepth="32" Resolution="LowRes" AlphaChannel="True">
+                <Source>
+                  <FileName>img/gui/left_button_hold.png</FileName>
+                </Source>
+              </Sprite>
+              <Sprite Slot="157" Width="80" Height="40" ColorDepth="32" Resolution="LowRes" AlphaChannel="True">
+                <Source>
+                  <FileName>img/gui/right_button_hold.png</FileName>
                 </Source>
               </Sprite>
             </Sprites>
@@ -9197,7 +9280,7 @@
                 <DefaultVolume>-1</DefaultVolume>
                 <DefaultPriority>Inherit</DefaultPriority>
                 <DefaultRepeat>Inherit</DefaultRepeat>
-                <FileLastModifiedDate>2019-01-27 16:15:39Z</FileLastModifiedDate>
+                <FileLastModifiedDate>2019-01-27 15:49:27Z</FileLastModifiedDate>
               </AudioClip>
               <AudioClip>
                 <ScriptName>aDog_from_hell_3</ScriptName>
@@ -9374,6 +9457,34 @@
   <Component Name="AudioNew" />
   <Component Name="GlobalVariables" />
   <Component Name="Scripts" />
+  <Component Name="SpeechCenter">
+    <SpeechCenter Version="2.1.0.0">
+      <Document Version="2.0.0.0">
+        <Settings>
+          <CustomFunctions />
+          <VoiceActorScripts NewParagraph="PER_FUNCTION">
+            <Format>
+              <Styles>
+                <CSSStyle CSSName="body" FontFamily="Cambria" Color="" FontStyle="inherit" FontWeight="inherit" />
+                <CSSStyle CSSName=".currentCharacter" FontFamily="" Color="" FontStyle="inherit" FontWeight="inherit" />
+                <CSSStyle CSSName=".otherCharacter" FontFamily="" Color="LightGray" FontStyle="inherit" FontWeight="inherit" />
+                <CSSStyle CSSName=".lineNumber" FontFamily="" Color="Firebrick" FontStyle="inherit" FontWeight="inherit" />
+                <CSSStyle CSSName=".duplicate" FontFamily="" Color="Thistle" FontStyle="inherit" FontWeight="inherit" />
+                <CSSStyle CSSName=".speechCorrect" FontFamily="" Color="MediumBlue" FontStyle="inherit" FontWeight="inherit" />
+                <CSSStyle CSSName=".speechIncorrect" FontFamily="" Color="Red" FontStyle="inherit" FontWeight="inherit" />
+                <CSSStyle CSSName=".filtered" FontFamily="" Color="LightSlateGray" FontStyle="italic" FontWeight="inherit" />
+              </Styles>
+            </Format>
+          </VoiceActorScripts>
+          <Translations EnableEditing="false" />
+          <Edit ShowWarning="true" ExitEditModeAfterSave="true" RefreshProjectAfterSave="Any" />
+          <DialogParsing ShowAllOoptionText="false" />
+        </Settings>
+        <SpeechLines />
+        <Translations />
+      </Document>
+    </SpeechCenter>
+  </Component>
   <Component Name="Plugins" />
   <Component Name="Rooms" />
   <Component Name="Translations" />

@@ -8,6 +8,8 @@ This is the product of development with an awesome team of people from the
 [twitter looking the Hashtag](https://twitter.com/hashtag/vacaroxa?src=hash)
 or follow [@estudiovacaroxa](https://twitter.com/estudiovacaroxa).
 
+If you are curious on the Android Studio Project to port it, [you can find it here](https://github.com/ericoporto/vacaroxa_hellspuppy).
+
 ![](img/title_screen/title.png)
 
 Firstly the people involved in the whole project:

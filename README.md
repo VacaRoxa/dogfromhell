@@ -22,6 +22,12 @@ Use Arrow left and right keys to move.  **`Alt+Enter`** to fullscreen.
 
 Android has experimental touch controls.
 
+## Gameplay Video
+
+Future Vintage Gaming played the Game so you can [watch below](https://www.youtube.com/watch?v=nCoi0PT_Bk0)!
+
+[![Watch Hell's Puppy ~ Free Pixel Art Game ~ on YouTube](https://user-images.githubusercontent.com/2244442/52021089-d49c6300-24da-11e9-83b6-ccc8c06b9527.png)](https://www.youtube.com/watch?v=nCoi0PT_Bk0)
+
 ## Running the game
 
 Go to [Releases](https://github.com/VacaRoxa/dogfromhell/releases) and get latest binaries.
